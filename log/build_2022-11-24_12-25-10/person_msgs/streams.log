@@ -1,0 +1,118 @@
+[0.155s] Invoking command in '/home/daisuke/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daisuke/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/daisuke/ros2_ws/build/person_msgs -- -j8 -l8
+[0.173s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.188s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.188s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.311s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[1.406s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.387s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[2.460s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[2.463s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[4.428s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[4.445s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[4.445s] -- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[4.461s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.461s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[4.461s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[6.478s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[6.484s] -- Added test 'lint_cmake' to check CMake code style
+[6.485s] -- Added test 'xmllint' to check XML markup files
+[6.486s] -- Configuring done
+[6.509s] -- Generating done
+[6.509s] -- Build files have been written to: /home/daisuke/ros2_ws/build/person_msgs
+[6.532s] [ 10%] Built target person_msgs__rosidl_generator_c
+[6.532s] [ 13%] Built target person_msgs__cpp
+[6.550s] [ 24%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp
+[6.559s] [ 34%] Built target person_msgs__rosidl_typesupport_introspection_cpp
+[6.561s] [ 44%] Built target person_msgs__rosidl_typesupport_introspection_c
+[6.570s] [ 55%] Built target person_msgs__rosidl_typesupport_cpp
+[6.578s] [ 65%] Built target person_msgs__rosidl_typesupport_fastrtps_c
+[6.595s] [ 75%] Built target person_msgs__rosidl_typesupport_c
+[6.608s] [ 75%] Built target person_msgs
+[6.622s] [ 79%] Built target person_msgs__py
+[6.637s] [ 86%] Built target person_msgs__python
+[6.655s] [100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.655s] [100%] Built target person_msgs__rosidl_typesupport_c__pyext
+[6.663s] Invoked command in '/home/daisuke/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daisuke/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/daisuke/ros2_ws/build/person_msgs -- -j8 -l8
+[6.707s] Invoking command in '/home/daisuke/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daisuke/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/daisuke/ros2_ws/build/person_msgs --target install -- -j8 -l8
+[6.738s] [  3%] Built target person_msgs__cpp
+[6.739s] [ 13%] Built target person_msgs__rosidl_generator_c
+[6.755s] [ 24%] Built target person_msgs__rosidl_typesupport_introspection_cpp
+[6.756s] [ 34%] Built target person_msgs__rosidl_typesupport_introspection_c
+[6.756s] [ 44%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp
+[6.772s] [ 65%] Built target person_msgs__rosidl_typesupport_fastrtps_c
+[6.772s] [ 65%] Built target person_msgs__rosidl_typesupport_cpp
+[6.787s] [ 75%] Built target person_msgs__rosidl_typesupport_c
+[6.800s] [ 75%] Built target person_msgs
+[6.813s] [ 79%] Built target person_msgs__py
+[6.828s] [ 86%] Built target person_msgs__python
+[6.845s] [100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.845s] [100%] Built target person_msgs__rosidl_typesupport_c__pyext
+[6.857s] [36mInstall the project...[0m
+[6.863s] -- Install configuration: ""
+[6.863s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs
+[6.863s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so
+[6.863s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.sh
+[6.864s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so
+[6.864s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs
+[6.864s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg
+[6.864s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.864s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h
+[6.864s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so
+[6.864s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs
+[6.865s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg
+[6.865s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person.h
+[6.865s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__functions.c
+[6.865s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.h
+[6.865s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__functions.h
+[6.865s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.865s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__struct.h
+[6.865s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/dds_fastrtps
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_fastrtps_cpp.hpp
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person.hpp
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__traits.hpp
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__struct.hpp
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.c
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_introspection_c.h
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_introspection_cpp.hpp
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.cpp
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so
+[6.866s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.sh
+[6.866s] -- Installing: /home/daisuke/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/__init__.py
+[6.885s] Compiling '/home/daisuke/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/__init__.py'...
+[6.887s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg
+[6.887s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/_person.py
+[6.887s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/_person_s.c
+[6.887s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/__init__.py
+[6.888s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[6.888s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[6.888s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/lib/libperson_msgs__python.so
+[6.888s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.idl
+[6.888s] -- Installing: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.msg
+[6.889s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs
+[6.889s] -- Installing: /home/daisuke/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs
+[6.889s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh
+[6.889s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh
+[6.889s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash
+[6.889s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh
+[6.889s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh
+[6.889s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs
+[6.889s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake
+[6.889s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.890s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.890s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake
+[6.890s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake
+[6.890s] -- Up-to-date: /home/daisuke/ros2_ws/install/person_msgs/share/person_msgs/package.xml
+[6.893s] Invoked command in '/home/daisuke/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daisuke/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/daisuke/ros2_ws/build/person_msgs --target install -- -j8 -l8
