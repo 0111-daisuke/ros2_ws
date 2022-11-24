@@ -1,0 +1,33 @@
+[0.521s] Invoking command in '/home/daisuke/ros2_ws/src/mypkg': PYTHONPATH=/home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/daisuke/ros2_ws/src/mypkg/install/mypkg --record /home/daisuke/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.676s] running egg_info
+[0.676s] creating build/mypkg/mypkg.egg-info
+[0.677s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.677s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.677s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.677s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.678s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.678s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.712s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.713s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.714s] running build
+[0.714s] running build_py
+[0.714s] creating /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build
+[0.714s] creating /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.714s] creating /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.714s] copying mypkg/__init__.py -> /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.714s] running install
+[0.715s] running install_lib
+[0.715s] creating /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.715s] copying /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.716s] byte-compiling /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/__init__.py to __init__.cpython-36.pyc
+[0.716s] running install_data
+[0.716s] creating /home/daisuke/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.716s] creating /home/daisuke/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.717s] creating /home/daisuke/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.717s] copying resource/mypkg -> /home/daisuke/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.717s] copying package.xml -> /home/daisuke/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.717s] running install_egg_info
+[0.718s] Copying build/mypkg/mypkg.egg-info to /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.719s] running install_scripts
+[0.738s] writing list of installed files to '/home/daisuke/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.758s] Invoked command in '/home/daisuke/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/daisuke/ros2_ws/src/mypkg/install/mypkg --record /home/daisuke/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed

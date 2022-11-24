@@ -1,0 +1,26 @@
+[0.366s] Invoking command in '/home/daisuke/ros2_ws/src/mypkg': PYTHONPATH=/home/daisuke/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/daisuke/ros2_ws/build/mypkg/build install --prefix /home/daisuke/ros2_ws/install/mypkg --record /home/daisuke/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[0.485s] running egg_info
+[0.486s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.486s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.486s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.486s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.486s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.511s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.512s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.512s] running build
+[0.512s] running build_py
+[0.513s] copying mypkg/listener.py -> /home/daisuke/ros2_ws/build/mypkg/build/lib/mypkg
+[0.513s] running install
+[0.513s] running install_lib
+[0.514s] copying /home/daisuke/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/daisuke/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.514s] byte-compiling /home/daisuke/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py to listener.cpython-36.pyc
+[0.515s] Sorry: IndentationError: unexpected indent (listener.py, line 10)
+[0.515s] running install_data
+[0.515s] running install_egg_info
+[0.516s] removing '/home/daisuke/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[0.516s] Copying ../../build/mypkg/mypkg.egg-info to /home/daisuke/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.517s] running install_scripts
+[0.530s] Installing listener script to /home/daisuke/ros2_ws/install/mypkg/lib/mypkg
+[0.530s] Installing talker script to /home/daisuke/ros2_ws/install/mypkg/lib/mypkg
+[0.530s] writing list of installed files to '/home/daisuke/ros2_ws/build/mypkg/install.log'
+[0.545s] Invoked command in '/home/daisuke/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/daisuke/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/daisuke/ros2_ws/build/mypkg/build install --prefix /home/daisuke/ros2_ws/install/mypkg --record /home/daisuke/ros2_ws/build/mypkg/install.log --single-version-externally-managed
