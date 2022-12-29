@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000343] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.000393] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.016819] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.097884] (-) TimerEvent: {}
+[0.198511] (-) TimerEvent: {}
+[0.299063] (-) TimerEvent: {}
+[0.341978] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.345690] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[0.345827] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daisuke/ros2_ws/build/person_msgs', '--', '-j8', '-l8'], 'cwd': '/home/daisuke/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/daisuke'), ('USER', 'daisuke'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/daisuke'), ('OLDPWD', '/home/daisuke'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daisuke'), ('NAME', 'DESKTOP-80O9FF0'), ('WSL_INTEROP', '/run/WSL/19570_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/daisuke/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.399267] (-) TimerEvent: {}
+[0.412245] (person_msgs) StdoutLine: {'line': b'[  2%] Built target person_msgs__cpp\n'}
+[0.412607] (person_msgs) StdoutLine: {'line': b'[ 12%] Built target person_msgs__rosidl_generator_c\n'}
+[0.431040] (person_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_person_msgs\n'}
+[0.454055] (person_msgs) StdoutLine: {'line': b'[ 23%] Built target person_msgs__rosidl_typesupport_c\n'}
+[0.458054] (person_msgs) StdoutLine: {'line': b'[ 48%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[0.458549] (person_msgs) StdoutLine: {'line': b'[ 53%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[0.458791] (person_msgs) StdoutLine: {'line': b'[ 64%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.459078] (person_msgs) StdoutLine: {'line': b'[ 46%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.464650] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.487212] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs\n'}
+[0.499476] (-) TimerEvent: {}
+[0.507140] (person_msgs) StdoutLine: {'line': b'[ 76%] Built target person_msgs__py\n'}
+[0.519442] (person_msgs) StderrLine: {'line': b"make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpython3.6m.so', needed by 'rosidl_generator_py/person_msgs/libperson_msgs__rosidl_generator_py.so'.  Stop.\n"}
+[0.519786] (person_msgs) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[0.527520] (person_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o\x1b[0m\n'}
+[0.528062] (person_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o\x1b[0m\n'}
+[0.533552] (person_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daisuke/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/srv/_query_s.c:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KPython.h: No such file or directory\n'}
+[0.533832] (person_msgs) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K<Python.h>\x1b[m\x1b[K\n'}
+[0.533937] (person_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.534365] (person_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[0.535095] (person_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daisuke/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/msg/_person_s.c:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KPython.h: No such file or directory\n'}
+[0.535304] (person_msgs) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K<Python.h>\x1b[m\x1b[K\n'}
+[0.535387] (person_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.535466] (person_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[0.540175] (person_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/person_msgs__rosidl_generator_py.dir/build.make:76: CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o] Error 1\n'}
+[0.540288] (person_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/person_msgs__rosidl_generator_py.dir/build.make:90: CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o] Error 1\n'}
+[0.540475] (person_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/person_msgs__rosidl_generator_py.dir/all] Error 2\n'}
+[0.540774] (person_msgs) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[0.599729] (-) TimerEvent: {}
+[0.700248] (-) TimerEvent: {}
+[0.780253] (person_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.781366] (person_msgs) StdoutLine: {'line': b'writing person_msgs.egg-info/PKG-INFO\n'}
+[0.781930] (person_msgs) StdoutLine: {'line': b'writing dependency_links to person_msgs.egg-info/dependency_links.txt\n'}
+[0.782272] (person_msgs) StdoutLine: {'line': b'writing top-level names to person_msgs.egg-info/top_level.txt\n'}
+[0.785318] (person_msgs) StdoutLine: {'line': b"reading manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[0.786214] (person_msgs) StdoutLine: {'line': b"writing manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[0.800509] (-) TimerEvent: {}
+[0.823095] (person_msgs) StdoutLine: {'line': b'[ 82%] Built target ament_cmake_python_build_person_msgs_egg\n'}
+[0.824637] (person_msgs) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[0.827328] (person_msgs) CommandEnded: {'returncode': 2}
+[0.882343] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/daisuke/ros2_ws/build/mypkg/build', 'install', '--record', '/home/daisuke/ros2_ws/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/daisuke/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/daisuke', 'USER': 'daisuke', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/daisuke', 'OLDPWD': '/home/daisuke', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'ROS_DISTRO': 'humble', 'LOGNAME': 'daisuke', 'NAME': 'DESKTOP-80O9FF0', 'WSL_INTEROP': '/run/WSL/19570_interop', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/daisuke/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/daisuke/ros2_ws/build/mypkg/prefix_override:/home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.900869] (-) TimerEvent: {}
+[0.916203] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 2}
+[1.001115] (-) TimerEvent: {}
+[1.101719] (-) TimerEvent: {}
+[1.116356] (mypkg) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.116981] (mypkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.123875] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.124493] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[1.124976] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[1.125137] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[1.125309] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[1.125439] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[1.126966] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.127673] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.127863] (mypkg) StdoutLine: {'line': b'running build\n'}
+[1.128345] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[1.128436] (mypkg) StdoutLine: {'line': b'running install\n'}
+[1.128495] (mypkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.128616] (mypkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.128906] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.129841] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[1.130352] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.131734] (mypkg) StdoutLine: {'line': b"removing '/home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.132123] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info\n'}
+[1.132796] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.153182] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/daisuke/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.153639] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/daisuke/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.153974] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/daisuke/ros2_ws/build/mypkg/install.log'\n"}
+[1.178022] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 'SIGINT'}
+[1.189097] (-) EventReactorShutdown: {}

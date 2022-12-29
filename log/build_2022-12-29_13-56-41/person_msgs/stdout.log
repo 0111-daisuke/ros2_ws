@@ -1,0 +1,20 @@
+[  2%] Built target person_msgs__cpp
+[ 12%] Built target person_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_person_msgs
+[ 23%] Built target person_msgs__rosidl_typesupport_c
+[ 33%] Built target person_msgs__rosidl_typesupport_introspection_c
+[ 43%] Built target person_msgs__rosidl_typesupport_cpp
+[ 53%] Built target person_msgs__rosidl_typesupport_introspection_cpp
+[ 64%] Built target person_msgs__rosidl_typesupport_fastrtps_c
+[ 74%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target person_msgs
+[ 76%] Built target person_msgs__py
+[ 79%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o[0m
+running egg_info
+writing person_msgs.egg-info/PKG-INFO
+writing dependency_links to person_msgs.egg-info/dependency_links.txt
+writing top-level names to person_msgs.egg-info/top_level.txt
+reading manifest file 'person_msgs.egg-info/SOURCES.txt'
+writing manifest file 'person_msgs.egg-info/SOURCES.txt'
+[ 82%] Built target ament_cmake_python_build_person_msgs_egg
