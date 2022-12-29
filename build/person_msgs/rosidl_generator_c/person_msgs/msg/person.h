@@ -5,8 +5,8 @@
 #ifndef PERSON_MSGS__MSG__PERSON_H_
 #define PERSON_MSGS__MSG__PERSON_H_
 
-#include "person_msgs/msg/person__struct.h"
-#include "person_msgs/msg/person__functions.h"
-#include "person_msgs/msg/person__type_support.h"
+#include "person_msgs/msg/detail/person__struct.h"
+#include "person_msgs/msg/detail/person__functions.h"
+#include "person_msgs/msg/detail/person__type_support.h"
 
 #endif  // PERSON_MSGS__MSG__PERSON_H_

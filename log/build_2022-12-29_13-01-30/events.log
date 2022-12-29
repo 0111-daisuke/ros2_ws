@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.002036] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.002114] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.002158] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.020633] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.100102] (-) TimerEvent: {}
+[0.200688] (-) TimerEvent: {}
+[0.301277] (-) TimerEvent: {}
+[0.320191] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.322648] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[0.322746] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daisuke/ros2_ws/build/person_msgs', '--', '-j8', '-l8'], 'cwd': '/home/daisuke/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/daisuke'), ('USER', 'daisuke'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/daisuke'), ('OLDPWD', '/home/daisuke'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daisuke'), ('NAME', 'DESKTOP-80O9FF0'), ('WSL_INTEROP', '/run/WSL/261_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/daisuke/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.401556] (-) TimerEvent: {}
+[0.421880] (person_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.479001] (person_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.485294] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501701] (-) TimerEvent: {}
+[0.546602] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.555175] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.555847] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.556059] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.558821] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601942] (-) TimerEvent: {}
+[0.631872] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.638596] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.638909] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.639451] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.641327] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.702254] (-) TimerEvent: {}
+[0.732445] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/daisuke/ros2_ws/build/mypkg/build', 'install', '--record', '/home/daisuke/ros2_ws/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/daisuke/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/daisuke', 'USER': 'daisuke', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/daisuke', 'OLDPWD': '/home/daisuke', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'ROS_DISTRO': 'humble', 'LOGNAME': 'daisuke', 'NAME': 'DESKTOP-80O9FF0', 'WSL_INTEROP': '/run/WSL/261_interop', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/daisuke/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/daisuke/ros2_ws/build/mypkg/prefix_override:/home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.802417] (-) TimerEvent: {}
+[0.806070] (person_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.884138] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.887342] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.894294] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.902567] (-) TimerEvent: {}
+[0.929462] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.976402] (mypkg) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[0.976629] (mypkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.985421] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.986128] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.986337] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.986712] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.986831] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.986898] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.988717] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.989885] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.990124] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.990199] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.990603] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.991232] (mypkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.991329] (mypkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.991619] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.992530] (mypkg) StdoutLine: {'line': b'creating /home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[0.992907] (mypkg) StdoutLine: {'line': b'copying /home/daisuke/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[0.993073] (mypkg) StdoutLine: {'line': b'copying /home/daisuke/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[0.993345] (mypkg) StdoutLine: {'line': b'copying /home/daisuke/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[0.993695] (mypkg) StdoutLine: {'line': b'byte-compiling /home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc\n'}
+[0.994216] (mypkg) StdoutLine: {'line': b'byte-compiling /home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc\n'}
+[0.994574] (mypkg) StdoutLine: {'line': b'byte-compiling /home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc\n'}
+[0.994743] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.995554] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.997597] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/daisuke/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info\n'}
+[0.998399] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.002690] (-) TimerEvent: {}
+[1.022654] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/daisuke/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.023008] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/daisuke/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.023175] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/daisuke/ros2_ws/build/mypkg/install.log'\n"}
+[1.049265] (mypkg) CommandEnded: {'returncode': 0}
+[1.062926] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.102936] (-) TimerEvent: {}
+[1.203422] (-) TimerEvent: {}
+[1.226087] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.303699] (-) TimerEvent: {}
+[1.399523] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.403835] (-) TimerEvent: {}
+[1.504219] (-) TimerEvent: {}
+[1.604692] (-) TimerEvent: {}
+[1.634818] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.656555] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[1.657571] (person_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.679743] (person_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (Required is at least version "3.5") \n'}
+[1.679961] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.680026] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[1.680113] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[1.680546] (person_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.689820] (person_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.703629] (person_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.704693] (person_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.704827] (-) TimerEvent: {}
+[1.705458] (person_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.707278] (person_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.737179] (person_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.739938] (person_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/daisuke/ros2_ws/build/person_msgs\n'}
+[1.754763] (person_msgs) StdoutLine: {'line': b"make[1]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.755908] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.756363] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.756432] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.762578] (person_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.763537] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.763935] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.765007] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.765221] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.772760] (person_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.774594] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.781716] (person_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_person_msgs\n'}
+[1.783814] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.793098] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.794710] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[1.805023] (-) TimerEvent: {}
+[1.905539] (-) TimerEvent: {}
+[2.006035] (-) TimerEvent: {}
+[2.074685] (person_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.075579] (person_msgs) StdoutLine: {'line': b'creating person_msgs.egg-info\n'}
+[2.075898] (person_msgs) StdoutLine: {'line': b'writing person_msgs.egg-info/PKG-INFO\n'}
+[2.076395] (person_msgs) StdoutLine: {'line': b'writing dependency_links to person_msgs.egg-info/dependency_links.txt\n'}
+[2.076807] (person_msgs) StdoutLine: {'line': b'writing top-level names to person_msgs.egg-info/top_level.txt\n'}
+[2.077216] (person_msgs) StdoutLine: {'line': b"writing manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[2.080076] (person_msgs) StdoutLine: {'line': b"reading manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[2.080565] (person_msgs) StdoutLine: {'line': b"writing manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[2.101300] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.106250] (-) TimerEvent: {}
+[2.108391] (person_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_person_msgs_egg\n'}
+[2.182891] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.184744] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.189565] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.193184] (person_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_c.dir/rosidl_generator_c/person_msgs/msg/detail/person__functions.c.o\x1b[0m\n'}
+[2.194292] (person_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_c.dir/rosidl_generator_c/person_msgs/srv/detail/query__functions.c.o\x1b[0m\n'}
+[2.194937] (person_msgs) StdoutLine: {'line': b'[ 10%] Built target person_msgs__cpp\n'}
+[2.197299] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.197671] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.197879] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.204666] (person_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.204928] (person_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.205297] (person_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.206355] (-) TimerEvent: {}
+[2.252641] (person_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libperson_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.281431] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.288429] (person_msgs) StdoutLine: {'line': b'[ 20%] Built target person_msgs__rosidl_generator_c\n'}
+[2.291149] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.291396] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.291519] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.298615] (person_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.299007] (person_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.299561] (person_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.306510] (-) TimerEvent: {}
+[2.407009] (-) TimerEvent: {}
+[2.507548] (-) TimerEvent: {}
+[2.606958] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.607654] (-) TimerEvent: {}
+[2.608725] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.617664] (person_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp.o\x1b[0m\n'}
+[2.619278] (person_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.o\x1b[0m\n'}
+[2.665807] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.667646] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.676925] (person_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/person_msgs/msg/detail/person__type_support.cpp.o\x1b[0m\n'}
+[2.677847] (person_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/person_msgs/srv/detail/query__type_support.cpp.o\x1b[0m\n'}
+[2.687496] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.689705] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.699087] (person_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/person_msgs/msg/detail/dds_fastrtps/person__type_support.cpp.o\x1b[0m\n'}
+[2.707813] (-) TimerEvent: {}
+[2.721848] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.723367] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.734154] (person_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/person_msgs/msg/person__type_support.cpp.o\x1b[0m\n'}
+[2.778461] (person_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/person_msgs/srv/query__type_support.cpp.o\x1b[0m\n'}
+[2.795657] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.798002] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.806445] (person_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/detail/person__type_support_c.cpp.o\x1b[0m\n'}
+[2.807982] (-) TimerEvent: {}
+[2.819185] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.819519] (person_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.821415] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.835286] (person_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/person_msgs/msg/detail/person__type_support.c.o\x1b[0m\n'}
+[2.876467] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.883998] (person_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/person_msgs/srv/detail/query__type_support.c.o\x1b[0m\n'}
+[2.884523] (person_msgs) StdoutLine: {'line': b'[ 56%] Built target person_msgs__rosidl_typesupport_c\n'}
+[2.896297] (person_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/person_msgs/srv/detail/dds_fastrtps/query__type_support.cpp.o\x1b[0m\n'}
+[2.908169] (-) TimerEvent: {}
+[2.943500] (person_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libperson_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.979315] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[2.992068] (person_msgs) StdoutLine: {'line': b'[ 61%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[3.004711] (person_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/detail/query__type_support_c.cpp.o\x1b[0m\n'}
+[3.008302] (-) TimerEvent: {}
+[3.097397] (person_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.108483] (-) TimerEvent: {}
+[3.150657] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[3.160663] (person_msgs) StdoutLine: {'line': b'[ 66%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[3.208705] (-) TimerEvent: {}
+[3.309413] (-) TimerEvent: {}
+[3.321645] (person_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.378873] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[3.385718] (person_msgs) StdoutLine: {'line': b'[ 69%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.409590] (-) TimerEvent: {}
+[3.481442] (person_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.492528] (person_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.509862] (-) TimerEvent: {}
+[3.553447] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[3.558113] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[3.562439] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.567218] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.569854] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[3.579684] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[3.592708] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs\n'}
+[3.595480] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[3.608659] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[3.610029] (-) TimerEvent: {}
+[3.611014] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[3.622058] (person_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.710217] (-) TimerEvent: {}
+[3.810684] (-) TimerEvent: {}
+[3.911211] (-) TimerEvent: {}
+[4.011664] (-) TimerEvent: {}
+[4.112065] (-) TimerEvent: {}
+[4.117735] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[4.125331] (person_msgs) StdoutLine: {'line': b'[ 76%] Built target person_msgs__py\n'}
+[4.127543] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[4.135426] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[4.137095] (person_msgs) StdoutLine: {'line': b"make[2]: Entering directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[4.137921] (person_msgs) StderrLine: {'line': b"make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpython3.6m.so', needed by 'rosidl_generator_py/person_msgs/libperson_msgs__rosidl_generator_py.so'.  Stop.\n"}
+[4.138059] (person_msgs) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[4.144980] (person_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o\x1b[0m\n'}
+[4.145474] (person_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o\x1b[0m\n'}
+[4.151829] (person_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daisuke/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/msg/_person_s.c:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KPython.h: No such file or directory\n'}
+[4.152226] (person_msgs) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K<Python.h>\x1b[m\x1b[K\n'}
+[4.152337] (person_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.152440] (person_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daisuke/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/srv/_query_s.c:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KPython.h: No such file or directory\n'}
+[4.152498] (person_msgs) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K<Python.h>\x1b[m\x1b[K\n'}
+[4.152554] (person_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.153416] (person_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[4.153498] (person_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[4.153550] (person_msgs) StdoutLine: {'line': b"make[2]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[4.153608] (person_msgs) StdoutLine: {'line': b"make[1]: Leaving directory '/home/daisuke/ros2_ws/build/person_msgs'\n"}
+[4.153657] (person_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/person_msgs__rosidl_generator_py.dir/build.make:76: CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o] Error 1\n'}
+[4.153734] (person_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/person_msgs__rosidl_generator_py.dir/build.make:90: CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o] Error 1\n'}
+[4.153786] (person_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/person_msgs__rosidl_generator_py.dir/all] Error 2\n'}
+[4.153848] (person_msgs) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.156876] (person_msgs) CommandEnded: {'returncode': 2}
+[4.212272] (-) TimerEvent: {}
+[4.256161] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 2}
+[4.267622] (-) EventReactorShutdown: {}

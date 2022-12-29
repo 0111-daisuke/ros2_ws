@@ -1,0 +1,44 @@
+[0.271s] Invoking command in '/home/daisuke/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daisuke/ros2_ws/build/person_msgs -- -j8 -l8
+[0.307s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_generator_c[0m
+[0.317s] [  2%] Built target person_msgs__cpp
+[0.325s] [ 12%] Built target person_msgs__rosidl_generator_c
+[0.326s] [ 12%] Built target ament_cmake_python_copy_person_msgs
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_cpp[0m
+[0.328s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.336s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_c[0m
+[0.337s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.337s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_introspection_c[0m
+[0.342s] [ 23%] Built target person_msgs__rosidl_typesupport_cpp
+[0.343s] [ 33%] Built target person_msgs__rosidl_typesupport_introspection_cpp
+[0.345s] [ 43%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp
+[0.348s] [ 53%] Built target person_msgs__rosidl_typesupport_c
+[0.349s] [ 64%] Built target person_msgs__rosidl_typesupport_introspection_c
+[0.353s] [ 74%] Built target person_msgs__rosidl_typesupport_fastrtps_c
+[0.370s] [ 74%] Built target person_msgs
+[0.389s] [ 76%] Built target person_msgs__py
+[0.401s] make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpython3.6m.so', needed by 'rosidl_generator_py/person_msgs/libperson_msgs__rosidl_generator_py.so'.  Stop.
+[0.401s] make[2]: *** Waiting for unfinished jobs....
+[0.407s] [ 79%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o[0m
+[0.407s] [ 82%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o[0m
+[0.413s] [01m[K/home/daisuke/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/msg/_person_s.c:5:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+[0.414s]     5 | #include [01;31m[K<Python.h>[m[K
+[0.414s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.414s] compilation terminated.
+[0.415s] [01m[K/home/daisuke/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/srv/_query_s.c:5:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+[0.415s]     5 | #include [01;31m[K<Python.h>[m[K
+[0.415s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.416s] compilation terminated.
+[0.416s] make[2]: *** [CMakeFiles/person_msgs__rosidl_generator_py.dir/build.make:76: CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o] Error 1
+[0.416s] make[2]: *** [CMakeFiles/person_msgs__rosidl_generator_py.dir/build.make:90: CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o] Error 1
+[0.417s] make[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/person_msgs__rosidl_generator_py.dir/all] Error 2
+[0.417s] make[1]: *** Waiting for unfinished jobs....
+[0.603s] running egg_info
+[0.604s] writing person_msgs.egg-info/PKG-INFO
+[0.604s] writing dependency_links to person_msgs.egg-info/dependency_links.txt
+[0.604s] writing top-level names to person_msgs.egg-info/top_level.txt
+[0.607s] reading manifest file 'person_msgs.egg-info/SOURCES.txt'
+[0.608s] writing manifest file 'person_msgs.egg-info/SOURCES.txt'
+[0.637s] [ 82%] Built target ament_cmake_python_build_person_msgs_egg
+[0.638s] make: *** [Makefile:146: all] Error 2
+[0.641s] Invoked command in '/home/daisuke/ros2_ws/build/person_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daisuke/ros2_ws/build/person_msgs -- -j8 -l8

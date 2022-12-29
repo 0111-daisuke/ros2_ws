@@ -4,7 +4,8 @@
 #ifndef PERSON_MSGS__SRV__QUERY_HPP_
 #define PERSON_MSGS__SRV__QUERY_HPP_
 
-#include "person_msgs/srv/query__struct.hpp"
-#include "person_msgs/srv/query__traits.hpp"
+#include "person_msgs/srv/detail/query__struct.hpp"
+#include "person_msgs/srv/detail/query__builder.hpp"
+#include "person_msgs/srv/detail/query__traits.hpp"
 
 #endif  // PERSON_MSGS__SRV__QUERY_HPP_

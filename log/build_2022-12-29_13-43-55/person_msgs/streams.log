@@ -1,0 +1,37 @@
+[0.297s] Invoking command in '/home/daisuke/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daisuke/ros2_ws/build/person_msgs -- -j8 -l8
+[0.353s] [ 10%] Built target person_msgs__rosidl_generator_c
+[0.353s] [ 12%] Built target person_msgs__cpp
+[0.363s] [ 12%] Built target ament_cmake_python_copy_person_msgs
+[0.375s] [ 23%] Built target person_msgs__rosidl_typesupport_introspection_c
+[0.376s] [ 43%] Built target person_msgs__rosidl_typesupport_c
+[0.376s] [ 43%] Built target person_msgs__rosidl_typesupport_fastrtps_c
+[0.378s] [ 53%] Built target person_msgs__rosidl_typesupport_introspection_cpp
+[0.381s] [ 64%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp
+[0.386s] [ 74%] Built target person_msgs__rosidl_typesupport_cpp
+[0.406s] [ 74%] Built target person_msgs
+[0.439s] [ 76%] Built target person_msgs__py
+[0.461s] make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpython3.6m.so', needed by 'rosidl_generator_py/person_msgs/libperson_msgs__rosidl_generator_py.so'.  Stop.
+[0.462s] make[2]: *** Waiting for unfinished jobs....
+[0.471s] [ 79%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o[0m
+[0.471s] [ 82%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o[0m
+[0.480s] [01m[K/home/daisuke/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/srv/_query_s.c:5:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+[0.480s]     5 | #include [01;31m[K<Python.h>[m[K
+[0.480s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.480s] compilation terminated.
+[0.481s] [01m[K/home/daisuke/ros2_ws/build/person_msgs/rosidl_generator_py/person_msgs/msg/_person_s.c:5:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+[0.481s]     5 | #include [01;31m[K<Python.h>[m[K
+[0.481s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.481s] compilation terminated.
+[0.483s] make[2]: *** [CMakeFiles/person_msgs__rosidl_generator_py.dir/build.make:90: CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o] Error 1
+[0.483s] make[2]: *** [CMakeFiles/person_msgs__rosidl_generator_py.dir/build.make:76: CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o] Error 1
+[0.484s] make[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/person_msgs__rosidl_generator_py.dir/all] Error 2
+[0.484s] make[1]: *** Waiting for unfinished jobs....
+[0.694s] running egg_info
+[0.695s] writing person_msgs.egg-info/PKG-INFO
+[0.696s] writing dependency_links to person_msgs.egg-info/dependency_links.txt
+[0.696s] writing top-level names to person_msgs.egg-info/top_level.txt
+[0.700s] reading manifest file 'person_msgs.egg-info/SOURCES.txt'
+[0.701s] writing manifest file 'person_msgs.egg-info/SOURCES.txt'
+[0.742s] [ 82%] Built target ament_cmake_python_build_person_msgs_egg
+[0.743s] make: *** [Makefile:146: all] Error 2
+[0.746s] Invoked command in '/home/daisuke/ros2_ws/build/person_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daisuke/ros2_ws/build/person_msgs -- -j8 -l8

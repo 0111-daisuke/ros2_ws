@@ -5,8 +5,8 @@
 #ifndef PERSON_MSGS__SRV__QUERY_H_
 #define PERSON_MSGS__SRV__QUERY_H_
 
-#include "person_msgs/srv/query__struct.h"
-#include "person_msgs/srv/query__functions.h"
-#include "person_msgs/srv/query__type_support.h"
+#include "person_msgs/srv/detail/query__struct.h"
+#include "person_msgs/srv/detail/query__functions.h"
+#include "person_msgs/srv/detail/query__type_support.h"
 
 #endif  // PERSON_MSGS__SRV__QUERY_H_
